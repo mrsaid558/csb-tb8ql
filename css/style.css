@@ -1,27 +1,118 @@
-.header {
-  background-color: cornflowerblue;
-  min-width: 100%;
+body {
+  height: 3000px;
+}
+
+/* start navbar */
+
+/* the logo of navbar */
+.navbar-brand {
+  color: #fff;
+  font-size: 25px;
+}
+
+/* the items of navbar */
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 15px;
+  text-transform: capitalize;
+}
+
+/* end navbar */
+
+/* start header */
+.row {
+  margin-top: 150px;
+}
+
+.header-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.header-text {
+  width: 90%;
+  font-size: 19px;
+  line-height: 1.7;
+  color: #888;
+}
+
+a.header-link {
+  font-size: 20px;
+  padding: 10px 50px;
+}
+
+.header-img {
+  background: linear-gradient(
+      rgba(146, 185, 146, 0.3),
+      rgba(145, 226, 145, 0.3)
+    ),
+    url(../images/learn.jpg);
+  height: 550px;
+  background-size: cover;
+}
+/*end header*/
+
+/* start services section */
+
+/* the icons */
+.svg-inline--fa {
+  color: #198754;
+}
+
+.svg-inline--fa:hover {
+  color: #10ac84;
+  transition: 0.2s;
+}
+
+.services-title {
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: #198754;
+}
+
+.services-text {
+  color: #777;
+}
+
+.icon-title {
+  color: #000;
+}
+/* end services section */
+
+/* start important fields */
+
+.fields {
+  background-color: #198754;
+  width: 100%;
   min-height: 600px;
+  padding-bottom: 60px;
 }
 
 .card {
-  margin: 10px 0;
-}
-
-.card a {
-  padding: 10px;
-  width: 100%;
-  background: transparent;
-  color: #000;
-  font-weight: bold;
-  text-transform: capitalize;
+  margin-bottom: 20px;
 }
 
 .card img {
   opacity: 1;
-  transition: 0.3s;
 }
 
 .card img:hover {
-  opacity: 0.7;
+  opacity: 0.6;
+  transition: 0.3s;
 }
+
+.card .btn {
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.card .btn:hover {
+  padding-left: 30px;
+}
+/* end important fields */
