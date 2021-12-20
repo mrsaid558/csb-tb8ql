@@ -1,7 +1,3 @@
-body {
-  height: 3000px;
-}
-
 /* start navbar */
 
 /* the logo of navbar */
@@ -113,6 +109,68 @@ a.header-link {
 }
 
 .card .btn:hover {
-  padding-left: 30px;
+  padding-left: 35px;
 }
 /* end important fields */
+
+/* start about us */
+.about-us {
+  background: linear-gradient(
+      rgba(146, 185, 146, 0.5),
+      rgba(145, 226, 145, 0.3)
+    ),
+    url(../images/about-us.jpg);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* the icons of about us section */
+svg:not(:root).svg-inline--fa {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.face:hover {
+  color: #6a89cc;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  color: #0abde3;
+  cursor: pointer;
+}
+
+.insta:hover {
+  color: #fc427b;
+  cursor: pointer;
+}
+
+/* end about us */
+
+/* start contact us */
+
+.contact-us h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-us label {
+  font-size: 18px;
+}
+
+.contact-us .btn {
+  padding: 10px 0;
+  font-size: 20px;
+  width: 40%;
+  margin-top: 15px;
+}
+
+.contact-us .btn:hover {
+  color: #198754;
+  font-weight: bold;
+}
+
+/* end contact us */
